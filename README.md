@@ -37,25 +37,16 @@ Our solution addresses the XYZ problem through the following steps:
 5. **Deployment**: Package the final model for deployment in the target environment.
 
 ## Использованные технологии
-
-* **Python**: For data processing, model building, and analysis.
-* **Pandas**: For data manipulation.
-* **NumPy**: For numerical operations.
-* **Matplotlib / Seaborn**: For data visualization.
-* **Scikit-Learn**: For implementing machine learning models.
-* **Jupyter Notebook**: For documenting analysis and iterative development.
-* 
+* **Pandas**: Для обработки данных.
+* **Matplotlib / Plotly**: Визуализация полученных статистик.
+* **Jupyter Notebook**: Интерактивная разработка и тестирование моделей.
+* * **Streamlit**: Для хостинга решения и удобного использования.
 ## Описание файлов
 
 | Нзавание                    | Описание                                                                         |
 |------------------------------|---------------------------------------------------------------------------------|
-| `requirements.txt`           | Lists all dependencies and packages required to run the project.                |
+| `requirements.txt`           | Файл с зависимостями проекта               |
 | `data_cleaning.py`           | Script for cleaning and preprocessing raw data.                                 |
-| `exploratory_analysis.ipynb` | Notebook with exploratory data analysis and visualizations.                     |
-| `feature_engineering.py`     | Script for creating new features from existing data.                            |
-| `model_training.py`          | Script for training machine learning models on the processed data.              |
-| `model_evaluation.py`        | Contains code for model evaluation metrics and comparison.                      |
-| `final_model.pkl`            | Serialized model file ready for deployment.                                     |
-| `README.md`                  | Overview of the project, instructions, and file descriptions (this file).       |
+
 
 
